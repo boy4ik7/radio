@@ -130,7 +130,6 @@ void show_rds() {
       //Serial.println(rdsMsg);
     //}
     if ( (stationName = rx.getRdsText0A()) != NULL) {
-      Serial.println(stationName);
       oled.print(stationName);
       oled.print("     ");
     }
